@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.font {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100%;
+  font-weight: bold;
+  color: rgb(187, 127, 255);
+  text-align: center;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+.font2 {
+  font: 100% "Courier New", Courier, monospace bold;
+  color: rgb(186, 25, 106);
+}
+
+#font3 {
+  font-family: "open sans", sans-serif;
+  font-size: 100%;
+  font-weight: initial;
+  color: rgb(187, 127, 255);
+  text-align: center;
+  font-style: normal;
+  font-variant: small-caps;
+}

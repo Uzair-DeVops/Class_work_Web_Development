@@ -1,0 +1,54 @@
+.data{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: auto;
+
+
+}
+
+.border{
+    border: 2px solid black;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.border-shadow{
+
+    border: 2px solid black;
+    box-shadow: 5px 5px 60px 20px purple;
+    padding: 10px;
+    margin: 10px
+
+}
+.parent{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.child1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.child2{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    float: right;
+    font-size: 50px;
+    
+    
+    
+}
+.child3{
+    border: 3px solid black;
+    height: 50px;
+    clear: both;
+}  

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.height {
+  border: 1px solid black;
+  margin-top: 18px;
+  padding: 10px;
+  width: 50%;
+  /* height: 200px; if there is more data ,that exceeds the height the data will overflow */
+  min-height: 200px; /* if there is less data, the height will be 200px */
+}

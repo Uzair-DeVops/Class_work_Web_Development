@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ht{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    min-height: 10px;
+    max-width: 200px;
+}

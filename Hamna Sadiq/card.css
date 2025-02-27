@@ -1,0 +1,82 @@
+body {
+    background-color: #0d1a2d;  
+    color: #ffffff;  
+    font-family: Arial, sans-serif; 
+    
+    display:flex; 
+    justify-content: center;  
+    align-items: center;  
+    
+    height: 100vh; 
+    margin: 0; 
+}
+
+.card {
+    background-color: #15263f;  
+    width: 300px;  
+    height: 500px; 
+    padding: 20px;  
+    border-radius: 15px;  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.card_image {
+    width: 100%;  
+    border-radius: 10px; 
+}
+
+.line {
+   
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+.profile {
+    display: flex; 
+    gap: 10px; 
+    cursor: pointer; 
+    transition: color 1s ease-in-out;
+    
+
+}
+.profile:hover  {
+    color: cyan;
+    
+}
+
+.avatar {
+    margin-top: 10px;
+    width: 35px; 
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer; 
+    transition: color 1s ease-in-out;
+
+}
+.avatar:hover {
+    border-color: #ff6600;
+    transform: scale(1.1);
+}
+span {
+    font-size: 14px;  
+    color: rgba(255, 255, 255, 0.7); 
+}
+h2 {
+    text-align: left;
+    padding-left: 0px;
+    
+   
+}
+h2:hover {
+    color: cyan;
+}   
+.card_text{
+    text-align: left;
+    padding-left: 0px;
+    color: rgba(255, 255, 255, 0.7) 
+    
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box; /* Fix the widht and height and the padding has no effect */
+}
+
+.data {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  overflow: auto; /* Scroll bar will appear if the content is larger than the box or if not scroll bar is not visible */
+}
+
+.data1 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  overflow: hidden; /* Content will be hidden if it is larger than the box */
+}
+
+.data2 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  overflow: scroll; /* Scroll bar will always appear */
+}
+
+.data3 {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  overflow: visible; /* Content will be visible even if it is larger than the box */
+}

@@ -1,0 +1,84 @@
+/
+body {
+    background-color: lightblue;
+  }
+
+.root{
+
+    font-size: 10px;
+}
+.parent{
+
+    height: 800px;
+    width: 800px;
+    background-color: rgb(192, 128, 128);
+    font-size: 20px;
+
+}
+.child{
+
+    height: 80%;
+    width: 80%;
+    background-color: rgb(164, 187, 164);
+    font-size: 1em;
+    background-color: lightskyblue;
+}
+.child1 {
+    
+        height: 20%;
+        width: 20%;
+        background-color: rgb(35, 100, 109);
+        font-size: 3rem;
+        align-self: last baseline;
+        border : 20px solid rgb(38, 10, 124);
+        padding: 30px;
+        margin: 20px;
+        outline-offset: 2px;
+        font-size: x-large;
+        font-weight: bold;
+        font-family: Arial, sans-serif; 
+        text-align: right;
+        text-decoration: wavy;  ;
+        
+
+}
+
+
+#test {
+    border : 20px solid rgb(91, 70, 156);
+    padding: 30px;
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    text-align: justify;
+    text-decoration: wavy;
+    background-color: rgb(170, 204, 151);
+    outline: invert;
+    border-left : 20px solid red;
+    border-right : 20px solid green;
+    border-top : 10px solid blue;
+    border-bottom : 10px solid yellow; 
+}
+.test1 {
+    border : 20px solid rgb(4, 10, 89);
+    padding: 30px;
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    text-align: justify;
+    text-decoration: wavy;
+    background-color: rgb(33, 121, 228);
+}
+.test2 {
+    border : 20px solid rgb(163, 108, 21);
+    padding: 30px;
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    text-align: justify;
+    text-decoration: wavy;
+    background-color: rgb(177, 194, 46);
+}
