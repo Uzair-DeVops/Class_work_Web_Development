@@ -1,6 +1,8 @@
 /* Background Setup */
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 500px;
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
