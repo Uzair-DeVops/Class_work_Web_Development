@@ -1,9 +1,9 @@
 
 #container {
     border-width : 20px;
-     border-color : red;
+    border-color : red;
     border-style : solid; 
-    outline-offset: 4px dolid;
+    outline-offset: 4px;
     outline-color: blue;
     outline-style: groove;
     outline-width: 10px;

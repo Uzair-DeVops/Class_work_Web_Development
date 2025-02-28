@@ -1,0 +1,189 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    position: relative;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ff6f61;
+    z-index: -1;
+    animation: glitch 2.5s infinite;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  .hero .subtext {
+    font-size: 1rem;
+    color: #ccc;
+    animation: fadeIn 4s ease-in-out;
+  }
+  
+  .cta-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #ff3b2f;
+  }
+  
+  .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://source.unsplash.com/1600x900/?code,programming') no-repeat center center/cover;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .about-content {
+    z-index: 2;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .about-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://source.unsplash.com/1600x900/?technology,developers') no-repeat center center/cover;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 100px 20px;
+    text-align: center;
+    background: #111;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-5px, 5px); }
+    40% { transform: translate(-5px, -5px); }
+    60% { transform: translate(5px, 5px); }
+    80% { transform: translate(5px, -5px); }
+    100% { transform: translate(0); }
+  }

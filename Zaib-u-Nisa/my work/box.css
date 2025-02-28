@@ -1,0 +1,47 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 50px;
+    padding-top:30px ;
+    color: crimson;
+}
+.parent{
+    width: 50%;
+    height: 50%;
+    border: 5px solid yellowgreen;
+    font-size: 3em;
+}
+.child{
+    width: 50%;
+    height: 50%;
+    border: 5px solid red;
+    font-size: 2rem;
+}
+.padding{
+    border: 50px solid pink;
+    padding: 36px;
+    margin: 30px;
+}
+/* height and width */
+.ht{
+    border: 2px solid orangered;
+    margin-top: 10px;
+    padding: 20px;
+    width: 30%;
+     max-height: 20%;
+     background-color: blue;
+}
+/* box sizing  */
+.bt{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(178, 12, 250);
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 30px;
+    background-color: palevioletred;
+}
