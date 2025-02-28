@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Examples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CSS Examples</h1>
+
+  <h2>Overflow Examples</h2>
+  <!-- Overflow: visible – content overflows but is shown outside the box -->
+  <div class="overflow-visible">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.</p>
+  </div>
+  <!-- Overflow: hidden – extra content is clipped and not visible -->
+  <div class="overflow-hidden">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.</p>
+  </div>
+  <!-- Overflow: scroll – scrollbars appear regardless of content size -->
+  <div class="overflow-scroll">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusamus reprehenderit dolores incidunt praesentium, expedita unde eius sunt iusto, enim doloremque fugiat quod nihil deleniti? Inventore ipsum nihil nemo vel.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis explicabo iste magni quia natus consectetur magnam labore vel a, earum inventore, iusto dolore, perspiciatis adipisci expedita quae error repudiandae nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <!-- Overflow: auto – scrollbars appear only when necessary -->
+  <div class="overflow-auto">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit amet.</p>
+  </div>
+  <!-- Overflow-x and overflow-y – horizontal scrolling auto; vertical hidden -->
+  <div class="overflow-xy">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quasi doloremque, minima dignissimos, nam numquam possimus accusantium iste natus at vel exercitationem facere. Hic ut corrupti magni natus neque dolores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim dicta laboriosam porro perspiciatis beatae voluptatem, incidunt repudiandae sequi quidem molestiae voluptates qui dolores labore cupiditate commodi maiores? Sequi, vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at facere labore, aliquam officia, ad voluptatum minima aliquid pariatur ex magnam in reiciendis nostrum assumenda quod explicabo corporis obcaecati beatae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio nulla nisi error voluptatem est dolore voluptates ex quisquam similique expedita ipsum, cumque nostrum accusantium animi maiores earum voluptas veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <h2>Border Radius Examples</h2>
+  <!-- Border Radius with four values – applies different rounding to each corner -->
+  <div class="border-radius-four">
+    <p>Four value border-radius: 10px 20px 30px 40px.</p>
+  </div>
+  <!-- Border Radius with three values – top-left, top-right/bottom-left, bottom-right -->
+  <div class="border-radius-three">
+    <p>Three value border-radius: 10px 20px 30px.</p>
+  </div>
+  <!-- Border Radius with two values – first for top-left/bottom-right, second for top-right/bottom-left -->
+  <div class="border-radius-two">
+    <p>Two value border-radius: 10px 20px.</p>
+  </div>
+  <!-- Border Radius with one value – same radius for all corners -->
+  <div class="border-radius-one">
+    <p>One value border-radius: 10px.</p>
+  </div>
+  <!-- Border Radius 50% – creates a circle or oval depending on the element’s dimensions -->
+  <div class="border-radius-circle">
+    <p style="text-align: center; line-height: 100px;">50%</p>
+  </div>
+
+  <h2>Box Shadow Example</h2>
+  <!-- Box Shadow – adds depth by creating a shadow with offset, blur, and color -->
+  <div class="box-shadow-example">
+    <p>Box with a shadow effect.</p>
+  </div>
+
+  <h2>Float Example</h2>
+  <!-- Float – positions elements to the left allowing content to wrap around them -->
+  <div class="float-container">
+    <div class="float-box">Float Left</div>
+    <div class="float-box">Float Left</div>
+    <p>This paragraph wraps around the floated boxes, demonstrating how float removes elements from normal flow.</p>
+  </div>
+</body>
+</html>
