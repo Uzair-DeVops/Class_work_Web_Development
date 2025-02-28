@@ -1,0 +1,28 @@
+.col{
+    height: 1000px;
+    width: 1000px;
+    background-color: #c32020;
+    color: #f4e5e5;
+    outline: #c3b906 solid 3px;
+    outline-offset: 2px;
+}
+
+
+
+
+.chaild{
+    height: 40%;
+    width: 40%;
+    background-color: #23058f;
+    font-size: 2em ;
+}
+
+.col1{
+    height:20%;
+    width: 20%;
+    background-color: #d6d6cd;
+    font-size: 1rem ;
+    color: #b40909;
+
+}
+

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.child{
+    background-color: red;
+    font-size: 3rem;
+}
+
+.test{
+    border: 4px solid black;
+    padding-left: 40px;
+    margin-left: 2px;
+}

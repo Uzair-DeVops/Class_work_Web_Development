@@ -1,0 +1,29 @@
+#container{
+    border: 8px groove red;
+    outline: 4px solid blue;
+    outline-offset: 2px solid black;
+}
+
+.para{
+
+    color: red;
+    font-size : 20px;
+
+}
+
+.para1{
+
+    color: green;
+    font-size : 25px;
+}
+
+.para2{
+
+    color: rgba(255, 25, 232, 1);
+} 
+
+.parent{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}

@@ -2,16 +2,21 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: cadetblue;
   color: white;
   font-size: 24px;
+  padding: 20px;
 }
 
 .section {
   background-color: white;
+  margin: 20px auto;
+  padding: 20px;
 
   width: 100%;
   border-radius: 10px;
@@ -19,6 +24,8 @@ header {
 
 .border {
   width: 90%;
+  padding: 20px;
+  margin: 20px auto;
   border: 5px solid red;
   border-bottom: 5px double orange;
   border-left: 4px dashed blue;
@@ -27,6 +34,7 @@ header {
 }
 
 .outline {
+  padding: 10px 20px;
   width: 200px;
   height: 25px;
   outline: 3px solid black;
@@ -45,7 +53,7 @@ header {
   height: 100px;
   background-color: tomato;
   border-radius: 50%;
-  display: inline-block;
+  margin: 20px auto;
 }
 
 .oval {
@@ -58,6 +66,7 @@ header {
 
 .unit-box {
   width: 70%;
+  margin: 0 auto;
 }
 
 html {
@@ -91,10 +100,14 @@ html {
   height: 50%;
   background-color: aquamarine;
   font-size: 2em;
+  padding: 10px;
+  margin: 10px auto;
 }
 
 footer {
   background: #333;
   color: white;
   font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
 }

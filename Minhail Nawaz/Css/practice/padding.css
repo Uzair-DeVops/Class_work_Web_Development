@@ -1,0 +1,47 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.test{
+    border: 2px solid rgb(187, 32, 32);
+    padding: 10px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    width: 50%;
+  
+}
+
+.ht{
+    border: 2px dashed rgb(60, 12, 192);
+    padding: 10px;
+    height: 50%;
+    height: 20%;
+    margin-top: 3px;
+}
+
+.wt{
+    border: 2px solid rgb(95, 80, 23);
+    padding: 10px;
+    margin-top: 10px;
+    height: 50%;
+    min-height: 200px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px double rgb(92, 113, 30);
+    margin: 2px ;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}

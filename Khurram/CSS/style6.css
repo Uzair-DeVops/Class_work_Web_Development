@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+.border-radius {
+  border: 1px solid black;
+  /* border-radius: 10px; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.border-shadow {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.parent {
+  border: 1px solid black;
+  height: 650px;
+}
+.child1 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.child2 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.child3 {
+  border: 1px solid black;
+  width: 480px;
+  clear: both;
+}

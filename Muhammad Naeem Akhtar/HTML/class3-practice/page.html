@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: pink;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: orange;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .content {
+            flex: 3;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .sidebar {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .footer {
+            background-color: pink;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Naeem Akhtar DevOps</div>
+    <div class="navbar">
+        <a href="#">Home</a> |
+        <a href="#">About Us</a> |
+        <a href="#">Gallery</a> |
+        <a href="#">FAQ</a> |
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>Sub Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel turpis maximus ex vulputate venenatis
+                cursus in justo...</p>
+            <p>Nam gravida ligula non ullamcorper suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Illo, saepe quo nam, minima sapiente itaque quidem quaerat enim impedit rerum mollitia distinctio optio,
+                sed voluptas numquam laudantium dolore alias suscipit.</p>
+        </div>
+        <div class="sidebar">
+            <font>
+                <ul color="blue" size="3">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </font>
+
+        </div>
+
+    </div>
+    <div class="footer">@copyright sitename 2025.</div>
+</body>
+
+</html>

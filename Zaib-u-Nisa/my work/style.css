@@ -1,0 +1,25 @@
+h1{
+    color:#2596be ;
+}
+p{
+    color: rgba(234,182,118 ,0.8);
+}
+.Border{
+    border: 5px solid red;
+}
+#lorem{
+    border-left:10px double yellow ;
+    border-right: 10px solid rgb(8, 222, 219);
+    border-top: 10px solid blueviolet;
+    border-bottom:8px dashed orangered ;
+    color: black;
+    outline-style: double;
+    outline-color: palevioletred;
+    outline-offset:5px ;
+    outline-width: thick;
+}
+.container{
+    width: 75%;
+    height:75%;
+    columns: green;
+}

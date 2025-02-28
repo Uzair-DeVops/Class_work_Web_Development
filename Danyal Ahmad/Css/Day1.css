@@ -1,0 +1,17 @@
+/* This line has external Css Third Prefrence */
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+h1 .heading {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+#heading2 {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
