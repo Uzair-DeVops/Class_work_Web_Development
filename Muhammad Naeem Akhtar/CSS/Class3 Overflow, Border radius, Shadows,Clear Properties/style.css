@@ -6,6 +6,7 @@
 }
 
 .box{
+    
     width: 200px;
     height: 200px;
     border: 4px solid black;
@@ -40,5 +41,57 @@
     font-weight: bold;
     overflow: auto;
     align-items: center;
+
+}
+h1{
+    text-align: center;
+}
+
+.border{
+    border: 4px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+.border-shadow{
+    border: 1px solid rgb(153, 13, 13);
+    box-shadow: 10px 10px 20px 50px rgb(76, 30, 175);
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.parent{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.child1{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-size: 50px;
+
+}
+.child2{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    float: right;
+    font-size: 50px;
+
+}
+.child3{
+    border: 3px solid black;
+    height: 50px;
+    clear: both;
+    font-size: 50px;
+
 
 }
