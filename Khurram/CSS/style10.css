@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+.bgGradient {
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  height: 30vh;
+  padding: 8px;
+  /* background-image: linear-gradient(to right, red, yellow, green); */
+  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"); /* The image is used as the background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* The image is not repeated */
+}
+
+.bgGradient1 {
+  color: rgb(100, 157, 192);
+  text-shadow: 2px 2px 5px rgb(163, 149, 149);
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  /* background-image: radial-gradient(
+      closest-corner at 10% 10%,
+      red 50%,
+      rgb(213, 39, 187) 50%,
+      rgb(36, 180, 216) 60%
+    ); */
+  background-image: linear-gradient(
+    to right,
+    rgb(198, 28, 99),
+    rgba(255, 255, 255, 0.5)
+  );
+}
