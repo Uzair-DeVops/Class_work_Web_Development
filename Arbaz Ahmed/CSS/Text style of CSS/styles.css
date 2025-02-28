@@ -1,0 +1,109 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Common styling for all demo blocks */
+  .demo-block {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* text-align: Centers the text horizontally within its container */
+  .text-align p {
+    text-align: center;
+  }
+  
+  /* text-align-last: Justifies text with the last line aligned to the right */
+  .text-align-last p {
+    text-align: justify;
+    text-align-last: right;
+  }
+  
+  /* text-decoration: Underlines the text */
+  .text-decoration p {
+    text-decoration: underline;
+  }
+  
+  /* text-decoration-color: Sets the underline color to red */
+  .text-decoration-color p {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  
+  /* text-decoration-line: Applies an overline to the text */
+  .text-decoration-line p {
+    text-decoration-line: overline;
+  }
+  
+  /* text-decoration-style: Uses a wavy underline with blue color */
+  .text-decoration-style p {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+  }
+  
+  /* text-indent: Indents the first line of the paragraph by 50px */
+  .text-indent p {
+    text-indent: 50px;
+  }
+  
+  /* text-justify: Fully justifies the text so that words are evenly spaced */
+  .text-justify p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  /* text-overflow: Truncates overflowed text with an ellipsis */
+  .text-overflow p {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* text-transform: Transforms all text to uppercase */
+  .text-transform p {
+    text-transform: uppercase;
+  }
+  
+  /* text-shadow: Adds a shadow effect to the text */
+  .text-shadow p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* letter-spacing: Increases the spacing between characters by 2px */
+  .letter-spacing p {
+    letter-spacing: 2px;
+  }
+  
+  /* line-height: Sets the space between lines to 2 times the font size */
+  .line-height p {
+    line-height: 2;
+  }
+  
+  /* direction: Sets the text direction to right-to-left */
+  .direction p {
+    direction: rtl;
+  }
+  
+  /* word-spacing: Increases the space between words by 10px */
+  .word-spacing p {
+    word-spacing: 10px;
+  }
+  

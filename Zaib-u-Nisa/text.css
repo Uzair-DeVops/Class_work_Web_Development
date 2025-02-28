@@ -1,0 +1,49 @@
+h1{
+    color: crimson;
+    text-shadow: 3px 3px 3px black,  3px 3px 3px yellow;
+    text-align :center;
+    text-transform: capitalize;
+    text-decoration:dotted;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 5px  3px 6px blue;
+    color: #f20d59;
+}
+p{
+    text-overflow: ellipsis;
+    text-align-last: left;
+    text-decoration: wavy;
+    text-shadow: 10px 10px 10px greenyellow;
+    text-indent: 15px;
+    text-transform: uppercase;
+    text-emphasis-color: blue;
+    text-combine-upright: 330px;
+    text-size-adjust: 50%;
+    color:rgba(17, 51, 223,1);
+}
+.textsp{
+    width: 50%;
+    border:5px solid orange ;
+    white-space:pre-wrap;
+    background-color:peachpuff;
+    
+}
+.textwm{
+    width: 50%;
+    border:5px solid #f20d59 ;
+    background-color:yellow;
+    writing-mode: vertical-rl;
+
+    word-break: break-all;
+    /* writing-mode: horizontal-tb; */
+    float: left;
+}
+.text{
+    width: 20%;
+    border: 5px solid black;
+    background-color: aqua;
+    float: right;
+}

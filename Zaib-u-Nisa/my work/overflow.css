@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    padding: 50px;
+    color: #E91E63;
+}
+.over{
+    width: 300px;
+    height: 200px;
+    border: 5px solid purple;
+    overflow: scroll;
+    background-color: brown;
+    color: azure;
+}
+.BR{
+    width: 300px;
+    height: 200px;
+    border: 30px solid rgb(49, 250, 42);
+    background-color: yellow;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 70px;
+    padding: 50px;
+    font-size: 30px;
+    box-shadow: 50px 30px 40px red;
+}
+/* float */
+.child1{
+    border:15px solid yellow;
+    height: 200px;
+    width: 300px;
+    float: right;
+    font-size: 50px;
+    background-color: #E64A19;
+}
+.child2{
+    border:15px solid pink;
+    height: 200px;
+    width: 300px;
+    float: right;
+    font-size: 40px;
+    background-color:#6A1B9A;
+}
+.child3{
+    border:15px solid green;
+    height: 200px;
+    clear: both;
+    font-size: 70px;
+    background-color: #E91E63;
+}
+/* all properties of css */
+.OBS{
+    width: 30%;
+    height: 20%;
+    border:10px solid #03A9F4;
+    box-shadow: 10px 10px 10px#B71C1C;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #FFB300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    float: left;
+}
+.OBS2{
+    width: 30%;
+    height: 20%;
+    border:10px solid #000000;
+    box-shadow: 10px 10px 10px#B71C1C;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 40px;
+    background-color:#C2185B;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    float: left;
+    
+}

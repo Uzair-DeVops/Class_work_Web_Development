@@ -1,0 +1,77 @@
+
+#container {
+    border-width : 20px;
+    border-color : red;
+    border-style : solid; 
+    outline-offset: 4px;
+    outline-color: blue;
+    outline-style: groove;
+    outline-width: 10px;
+
+
+    /* border : 4px solid rgb(14, 193, 68);
+    outline : 10px solid blue;
+    outline-offset : 4px; */
+
+
+    border-left : 20px solid red;
+    border-right : 20px solid green;
+    border-top : 10px solid blue;
+    border-bottom : 10px solid yellow; 
+   
+
+}
+
+
+.para{
+    color : red;
+    font-size : 20px;
+    font-family : Arial, sans-serif;
+    font-weight : bold;
+    text-align : center;
+    text-transform : uppercase;
+    text-decoration : underline;
+    line-height : 50px;
+
+
+
+}
+
+.para1{
+   
+    color : #b300ff;
+    font-size : 30px;
+    font-family : Arial, sans-serif;view-transition-name: ease-in-out;
+    font-weight : large;
+    text-align : left;
+
+}
+
+.para2{
+
+    color : rgb(10, 225, 80);
+    font-size : 40px;
+    font-family : Arial, sans-serif;
+    font-weight : bold;
+    text-align : right;
+    text-transform : uppercase;
+    text-decoration : underline;
+    line-height : 50px;
+
+
+
+}
+
+.para3{
+
+    color : rgb(103, 10, 225);
+    font-size : 50px;
+    font-family : Arial, sans-serif;
+    font-weight : bold;
+    text-align : right;
+    text-decoration : underline;
+    line-height : 70px;
+
+
+
+}
