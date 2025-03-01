@@ -1,0 +1,57 @@
+/* Demonstrates font shorthand with italic, small-caps, bold style and a custom color. */
+.font-color {
+    font: italic small-caps bold 20px/1.5 "Times New Roman", serif;
+    color: #FF5733;
+  }
+  
+  /* Sets a specific font family with a generic fallback. */
+  .font-family {
+    font-family: "Georgia", serif;
+  }
+  
+  /* Applies normal font style to the text. */
+  .font-style-normal {
+    font-style: normal;
+  }
+  
+  /* Applies italic font style to the text. */
+  .font-style-italic {
+    font-style: italic;
+  }
+  
+  /* Applies oblique font style to the text. */
+  .font-style-oblique {
+    font-style: oblique;
+  }
+  
+  /* Uses an absolute font size (20px) for the text. */
+  .font-size-absolute {
+    font-size: 20px;
+  }
+  
+  /* Uses a relative font size (1.5em) for the text. */
+  .font-size-relative {
+    font-size: 1.5em;
+  }
+  
+  /* Applies the small-caps font variant to the text. */
+  .font-variant {
+    font-variant: small-caps;
+  }
+  
+  /* Applies normal font weight to the text. */
+  .font-weight-normal {
+    font-weight: normal;
+  }
+  
+  /* Applies bold font weight to the text. */
+  .font-weight-bold {
+    font-weight: bold;
+  }
+  
+  /* Uses the Google Font "Roboto" for styling. */
+  .google-font {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  

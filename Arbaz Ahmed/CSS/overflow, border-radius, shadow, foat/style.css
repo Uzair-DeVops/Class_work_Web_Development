@@ -1,0 +1,158 @@
+/* 
+Overflow: visible shows overflowing content outside the box boundaries.
+This example demonstrates that extra text is displayed beyond the container.
+*/
+.overflow-visible {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000;
+    overflow: visible;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Overflow: hidden clips the overflowing content so that it is not displayed.
+  Extra text beyond the container’s limits is simply cut off.
+  */
+  .overflow-hidden {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Overflow: scroll always shows scrollbars regardless of whether content overflows.
+  Users can scroll to view the hidden parts even if the content barely exceeds the container.
+  */
+  .overflow-scroll {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000;
+    overflow: scroll;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Overflow: auto displays scrollbars only when necessary.
+  It provides a cleaner look if the content fits, while still allowing access to overflowed content.
+  */
+  .overflow-auto {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000;
+    overflow: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Overflow-x and overflow-y allow separate control for horizontal and vertical overflow.
+  Here, horizontal scrolling is enabled and vertical overflow is hidden.
+  */
+  .overflow-xy {
+    width: 400px;
+    height: 150px;
+    border: 1px solid #000;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Border Radius with four values applies unique radii to each corner.
+  The values represent top-left, top-right, bottom-right, and bottom-left respectively.
+  */
+  .border-radius-four {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 10px 20px 30px 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  /* 
+  Border Radius with three values sets the first radius for the top-left, 
+  the second for both top-right and bottom-left, and the third for the bottom-right.
+  */
+  .border-radius-three {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 10px 20px 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  /* 
+  Border Radius with two values applies the first radius to top-left and bottom-right,
+  and the second radius to top-right and bottom-left.
+  */
+  .border-radius-two {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 10px 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  /* 
+  Border Radius with one value uses the same radius for all corners.
+  It provides a uniform rounded corner effect on the element.
+  */
+  .border-radius-one {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  /* 
+  Border Radius: 50% creates a circle or oval shape.
+  This is often used for circular avatars or buttons when width and height are equal.
+  */
+  .border-radius-circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #28a745;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Box Shadow adds depth by creating a shadow behind the element.
+  Properties like offset, blur, and color can be adjusted to modify the effect.
+  */
+  .box-shadow-example {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  /* 
+  Float positions an element to the left, allowing text or other inline elements to wrap around it.
+  Floating elements are taken out of the normal document flow.
+  */
+  .float-container {
+    overflow: auto; /* Clears floated child elements */
+    border: 1px dashed #999;
+    padding: 10px;
+  }
+  .float-box {
+    width: 100px;
+    height: 100px;
+    background-color: #f39c12;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+  }
+  
