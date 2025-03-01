@@ -1,0 +1,16 @@
+.Gradient{
+    border: 1px solid black;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    /* background-image: url(https://img.freepik.com/free-vector/gradient-connection-background_23-2150518077.jpg?semt=ais_hybrid) ;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+    /* background-image: linear-gradient(purple, black); */
+
+    background-image: radial-gradient( purple, black);
+
+}
