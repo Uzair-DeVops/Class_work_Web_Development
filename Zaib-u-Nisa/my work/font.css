@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fs{
+    width: 50%;
+    height: 50%;
+    border:  6px solid #2E7D32 ;
+    background-color:#00ACC1 ;
+    padding: 50px;
+    margin: 50px;
+}
+h1{
+    margin: 30px;
+    color:#000;
+    font-style: oblique;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    color:#E91E63 ;
+    
+}
+.pv{
+    font:bold small-caps normal 1em/35px arial,verdana; 
+    color: #2E7D32;
+}
+img {
+    margin-left: 70%;
+    background-color:#E91E63 ;
+    padding-bottom: 5%;
+    
+    
+}
