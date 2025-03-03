@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+}
+
+:root {
+  --div-height: 200px;
+  --div-width: 200px;
+}
+
+.box1,
+.box2,
+.box3 {
+  height: var(--div-height);
+  width: var(--div-width);
+  background-color: blue;
+}
+
+.box1 {
+  position: absolute;
+  z-index: 1;
+}
+.box2 {
+  background-color: red;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 2;
+}
+
+.box3 {
+  background-color: green;
+  margin-left: 200px;
+  margin-top: 200px;
+  position: absolute;
+  z-index: 3;
+}
+
+.re {
+  position: relative;
+  top: 450px;
+  text-align: center;
+}
+
+.resize {
+  position: relative;
+  top: 450px;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 200px;
+  overflow: auto; /* Resize is only work when overflow is set to auto */
+  resize: both; /* both , horizontal, vertical */
+}
+
+textarea {
+  position: relative;
+  top: 250px;
+  resize: none;
+}
