@@ -1,0 +1,17 @@
+.con {
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+  position: relative;
+}
+
+.child {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
