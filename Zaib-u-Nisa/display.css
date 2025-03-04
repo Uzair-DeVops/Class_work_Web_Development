@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.title {
+    text-transform: capitalize;
+    text-align: center;
+    color: deeppink;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.dp {
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    border: 4px solid yellowgreen;
+    background-size: radial-gradient(farthest-corner at 50%, 50%, red, yellow, green);
+}
+
+.first {
+    display: inline;
+}
+
+.second {
+    display: inline;
+
+}
+
+span {
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.display {
+    text-align: center;
+    display: block;
+}
+
+.display:hover {
+    display: none;
+
+}
+
+.uz {
+    visibility: hidden;
+}
