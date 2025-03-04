@@ -41,3 +41,21 @@
   visibility: hidden;
   display: none;
 } */
+
+/* Visible element */
+.visible {
+  color: green;
+  font-size: 20px;
+}
+
+/* Hidden but still takes up space */
+.hidden {
+  visibility: hidden;
+  color: red; /* This won't be shown */
+}
+
+/* Completely removed from layout */
+.none {
+  /* display: none; */
+  color: blue; /* This also won't be shown */
+}
