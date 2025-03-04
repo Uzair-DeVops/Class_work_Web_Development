@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.one {
+  display: inline;
+}
+
+.two {
+  display: inline;
+}
+
+.three {
+  display: inline;
+  padding-left: 20px;
+}
+
+.four {
+  display: inline-block;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.display {
+  display: none;
+  font-size: 10px;
+}
+
+/* .display:hover {
+    display: none;
+    
+  } */
