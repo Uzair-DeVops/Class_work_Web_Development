@@ -1,0 +1,23 @@
+.con{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    /* position: relative; */
+    /* position: absolute; */
+    position: relative;
+    
+    border-radius: 16px;
+}
+
+.child{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    top: 0px;
+    
+
+}
