@@ -1,14 +1,14 @@
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #e2e2e2; /* Light gray background */
   margin: 0;
   padding: 0;
 }
 
 /* Header */
 header {
-  background-color: #333;
+  background-color: #5d9cec; /* Blue header */
   color: white;
   padding: 20px;
   text-align: center;
@@ -16,7 +16,7 @@ header {
 
 /* Navigation Menu */
 nav {
-  background-color: #444;
+  background-color: #4a89dc; /* Slightly darker blue for nav */
   padding: 10px 0;
 }
 
@@ -39,7 +39,7 @@ nav a {
 
 /* Content Section */
 section {
-  background-color: #fff;
+  background-color: #ffffff; /* White content background */
   padding: 20px;
   margin: 20px;
   border: 1px solid #ccc;
@@ -53,7 +53,7 @@ section img {
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #5d9cec; /* Matching footer with header */
   color: white;
   text-align: center;
   padding: 10px;
