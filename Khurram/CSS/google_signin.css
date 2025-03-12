@@ -64,23 +64,6 @@ input {
   font-size: 14px;
 }
 
-/* .signin-btn {
-    width: 20%;
-    padding: 10px;
-    background-color: #4285f4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 15px;
-    margin-left: 315px;
-  }
-  
-  .signin-btn:hover {
-    background-color: #0a3d8f;
-  } */
-
 /* Basic button styling */
 .signin-btn {
   background-color: #4285f4; /* Google blue */
