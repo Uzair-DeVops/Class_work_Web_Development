@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto 100px;
+  margin-top: 100px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px; /* Keeps size fixed and responsive */
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(147, 141, 141);
+}
+
+.container img {
+  width: 100px;
+  margin: 0 auto 10px; /* Centers the logo horizontally */
+  display: block; /* Makes it a block element so margin auto works */
+  margin-bottom: -5px;
+}
+
+.signin {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+
+.account {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 15px;
+}
+
+.input-group {
+  border: 3px solid #417eee;
+  border-radius: 5px;
+  padding: 10px;
+
+  width: 90%;
+  max-width: 340px; /* Ensures input field stays fixed */
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+legend {
+  font-size: 12px;
+  color: #4285f4;
+  padding: 0 5px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* .signin-btn {
+    width: 20%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 315px;
+  }
+  
+  .signin-btn:hover {
+    background-color: #0a3d8f;
+  } */
+
+/* Basic button styling */
+.signin-btn {
+  background-color: #4285f4; /* Google blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 25%;
+  transition: all 0.3s ease-in-out;
+  max-width: 250px; /* Ensures button stays in position */
+  margin-left: 295px;
+}
+
+/* Hover effect */
+.signin-btn:hover {
+  background-color: #3367d6; /* Darker blue */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Click effect */
+.signin-btn:active {
+  background-color: #2a56c6;
+  transform: scale(0.94);
+}
