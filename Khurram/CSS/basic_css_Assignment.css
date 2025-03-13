@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e2e2e2; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #5d9cec; /* Blue header */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Menu */
+nav {
+  background-color: #4a89dc; /* Slightly darker blue for nav */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Content Section */
+section {
+  background-color: #ffffff; /* White content background */
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background-color: #5d9cec; /* Matching footer with header */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

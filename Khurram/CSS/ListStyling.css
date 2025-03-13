@@ -1,0 +1,18 @@
+.l1 {
+  list-style-type: circle;
+  list-style-position: inside;
+  list-style-image: url(arrow.png); /* NOw it uses the arrow instead of circle  */
+}
+
+.Ls {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px #888888;
+}
+
+.l2 {
+  list-style-type: square;
+  list-style-position: inside;
+  /* list-style-image: url(arrow.png); NOw it uses the arrow instead of square  */
+  list-style-image: url(icons8-human-18.png);
+}

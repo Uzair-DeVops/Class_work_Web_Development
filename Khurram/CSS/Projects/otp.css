@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Otp {
+  border: 1px solid black;
+  padding: 100px;
+  margin: 50px;
+  width: 350px;
+  height: 42vh;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2f3640;
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  transform: translate(-50%, -55%);
+}
+
+.Otp h1 {
+  margin-bottom: 50px;
+  white-space: nowrap;
+  color: #4cd137;
+}
+
+.box {
+  display: inline-block; /* let each box sit side by side */
+  border: 1px solid #ecf0f1;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.box input {
+  width: 100%;
+  height: 100%;
+
+  color: #4cd137;
+
+  border: none;
+  outline: none;
+
+  border-radius: 5px;
+
+  text-align: center;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.box input:focus {
+  box-shadow: none;
+  outline: none; /* remove the default outline */
+}
+
+.nocode {
+  margin-top: 25px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #4cd137;
+}
+
+.button {
+  border: 3px solid #4cd137;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  width: 130px;
+  text-align: center;
+  font-size: 22px;
+  color: #4cd137;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4cd137;
+  color: black;
+}
