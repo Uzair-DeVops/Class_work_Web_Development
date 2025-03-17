@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #e0e5ec; /* Neumorphic background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.d-card {
+  background: #e0e5ec;
+  border-radius: 20px;
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 15px 15px 30px #a3b1c6, -15px -15px 30px #ffffff;
+}
+
+.d-card h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.d-input {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: #e0e5ec;
+  box-shadow: inset 10px 10px 20px #a3b1c6, inset -10px -10px 20px #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+.d-input:focus {
+  box-shadow: inset 12px 12px 24px #a3b1c6, inset -12px -12px 24px #ffffff;
+}
+
+.d-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #e0e5ec;
+  box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.d-button:hover {
+  box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff,
+    inset 10px 10px 20px #a3b1c6, inset -10px -10px 20px #ffffff;
+}
+
+.d-button:active {
+  transform: scale(0.97);
+  box-shadow: inset 8px 8px 16px #a3b1c6, inset -8px -8px 16px #ffffff;
+}
