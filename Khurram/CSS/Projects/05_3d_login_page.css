@@ -16,6 +16,7 @@ body {
   padding: 40px;
   text-align: center;
   box-shadow: 15px 15px 30px #a3b1c6, -15px -15px 30px #ffffff;
+  animation: float 3s ease-in-out infinite;
 }
 
 .d-card h1 {
@@ -62,4 +63,16 @@ body {
 .d-button:active {
   transform: scale(0.97);
   box-shadow: inset 8px 8px 16px #a3b1c6, inset -8px -8px 16px #ffffff;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
