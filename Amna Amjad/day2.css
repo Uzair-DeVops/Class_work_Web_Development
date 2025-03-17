@@ -1,0 +1,53 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.marg{
+    border: 2px solid black;
+    margin: 10%;
+    text-align: center;
+}
+.pad{
+    border: 2px solid black;
+    padding: 5%;
+    text-align: center;
+}
+.mp{
+    border: 2px solid black;
+    margin: 5vh;
+    padding: 5vh;
+
+}
+.tm{
+    border: 1px solid black;
+    margin-top:5%
+}
+.bm{
+    border: 1px solid black;
+    margin-bottom:3%;
+}
+.lm{
+    border: 1px solid black;
+    margin-left:5%
+}
+.rm{
+    border: 1px solid black;
+    margin-right:5%;
+}
+.tp{
+    border: 1px solid black;
+    padding-top:5%;
+}
+.bp{
+    border: 1px solid black;
+    padding-bottom:3%;
+}
+.lp{
+    border: 1px solid black;
+    padding-left:5%
+}
+.rp{
+    border: 1px solid black;
+    padding-right:5%;
+}
