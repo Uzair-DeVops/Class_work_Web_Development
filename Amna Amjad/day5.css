@@ -1,0 +1,118 @@
+h1{
+    text-align: center;
+}
+.align {
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    /* text-align: center;
+    text-align:end; */
+    text-align:justify;
+    /* text-align:left;
+    text-align: right;
+    text-align:start; */
+    /* text-align-last:end ; */
+    text-align-last:center;
+    /* text-align-last:auto; */
+    
+
+}
+.indent{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    text-indent: 50px ;
+}
+.trans{
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-transform:capitalize;
+}
+.LH{
+    line-height: 2;
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    
+}
+.LS{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    letter-spacing: 5PX;
+}
+.TS{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    text-shadow: -10px 10px 10px black, -10px -10px 10px palevioletred;
+}
+.WS{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    word-spacing: 10px;
+}
+.WSpace{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    white-space: nowrap;
+    white-space:pre-wrap;
+
+}
+.TD{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    text-decoration-style: dashed;
+    /* text-decoration-style: dotted; 
+    text-decoration-style: double;
+    text-decoration-style: solid; 
+    text-decoration-style: wavy; */
+    /* text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-line: underline;  */
+    text-decoration-line: overline underline; 
+    
+    
+}
+.TJ{
+    margin-top: 8px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    
+}
+.TO p{
+    display: block;
+    margin-top: 8px;
+    padding: 2%;
+    border: 1px solid black;
+    width: 50%;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+}
+.WM{
+    display: block;
+    margin-top: 8px;
+    padding: 2%;
+    border: 1px solid black;
+    width: 50%;
+    writing-mode: horizontal-tb;
+    writing-mode: sideways-lr;
+    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
+}
