@@ -1,0 +1,72 @@
+.list_type{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.list1{
+    margin: 10px;
+    list-style-type:armenian;
+    list-style-type: decimal;
+    list-style-type: circle;
+    list-style-type: decimal-leading-zero;
+    list-style-type: disc;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: square;
+    border: 1px solid black;
+}
+.list2{
+    margin: 10px;
+    list-style-type: upper-alpha;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    border: 1px solid black;
+}
+.list_position{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.list5{
+    margin: 10px;
+    padding: 10px;
+    list-style-position: inside;
+    
+    border: 1px solid black;
+}
+.list6{
+    margin: 10px;
+    padding: 10px;
+    list-style-position: inside;
+    
+    border: 1px solid black;
+}
+.list7{
+    border: 1px solid black;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-image: url(icon.png);
+}
+.grad1{
+    border: 1px solid black;
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    background-image:url(RE.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.grad2{
+    margin-top: 8px ;
+    margin-left: 30%;
+    border: 1px solid black;
+    width: 40%;
+    height: 300px;
+    background-image: linear-gradient(to top right, purple,pink,orange,green) ;
+    /* background-image: linear-gradient(to bottom left, purple,pink,orange,green) ; */
+
+    
+}

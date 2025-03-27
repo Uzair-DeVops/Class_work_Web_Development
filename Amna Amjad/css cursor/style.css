@@ -1,0 +1,115 @@
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve,.thirteen,.fourteen,.fifteen,.sixteen,.seventeen,.eighteen,.nineteen,.twenty,.t21,.t22,.t23,.t24,.t25,.t26,.t27,.t28,.t29,.t30,.t31,.t32,.t33,.t34{
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center;
+    height: 150px;
+    width: 20%;
+    float: inline-start;
+    overflow: hidden;
+    
+}
+.one{
+    cursor: alias;
+}
+.two{
+    cursor: all-scroll;
+}
+.three{
+    cursor: cell;
+}
+.four{
+    cursor: col-resize;
+}
+.five{
+    cursor: context-menu;
+}
+.six{
+    cursor: zoom-in;
+}
+.seven{
+    cursor: zoom-out;
+}
+.eight{
+    cursor: wait;
+}
+.nine{
+    cursor: w-resize;
+}
+.ten{
+    cursor: vertical-text;
+}
+.eleven{
+    cursor: copy;
+}
+.twelve{
+    cursor: crosshair;
+}
+.thirteen{
+    cursor: e-resize;
+}
+.fourteen{
+    cursor: ew-resize;
+}
+.fifteen{
+    cursor:grab;
+
+}
+.sixteen{
+    cursor: help;
+}
+.seventeen{
+    cursor: grabbing;
+}
+.eighteen{
+    cursor:move;
+}
+.nineteen{
+    cursor: n-resize;
+}
+.twenty{
+    cursor: ne-resize;
+}
+.t21{
+    cursor: nesw-resize;
+}
+.t22{
+    cursor: ns-resize;
+}
+.t23{
+    cursor: nw-resize;
+}
+.t24{
+    cursor:nwse-resize ;
+}
+.t25{
+    cursor: no-drop;
+}
+.t26{
+    cursor: not-allowed;
+}
+
+.t27{
+    cursor: pointer;
+}
+.t28{
+    cursor: progress;
+}
+.t29{
+    cursor:row-resize;
+}
+.t30{
+    cursor: s-resize;
+}
+.t31{
+    cursor: se-resize;
+}
+.t32{
+    cursor:sw-resize;
+}
+.t33{
+    cursor: text;
+}
+.t34{
+    cursor: url(cur.png), auto;
+}
