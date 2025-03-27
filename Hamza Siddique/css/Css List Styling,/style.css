@@ -1,0 +1,17 @@
+.list1{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(next.png);
+    
+
+}
+
+.countener{
+    border: 1px solid saddlebrown;
+    padding-right: 50px;
+
+}
+
+.list2{
+    list-style-type: lower-roman;
+}

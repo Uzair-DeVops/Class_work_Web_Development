@@ -1,36 +1,77 @@
-h1 {
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
   text-align: center;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Adds spacing between elements */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Gradient Box */
+.bgGradient,
+.bgGradient1 {
+  border: 1px solid black;
+  width: 70%;
+  max-width: 800px; /* Keeps it responsive */
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px auto; /* Adds spacing */
 }
 
 .bgGradient {
-  border: 1px solid black;
-  width: 70%;
-  margin: auto;
   height: 30vh;
-  padding: 8px;
-  /* background-image: linear-gradient(to right, red, yellow, green); */
-  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"); /* The image is used as the background */
+  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* The image is not repeated */
+  background-repeat: no-repeat;
 }
 
 .bgGradient1 {
   color: rgb(100, 157, 192);
   text-shadow: 2px 2px 5px rgb(163, 149, 149);
-  border: 1px solid black;
-  width: 70%;
-  margin: auto;
-  border-radius: 5px;
-  /* background-image: radial-gradient(
-      closest-corner at 10% 10%,
-      red 50%,
-      rgb(213, 39, 187) 50%,
-      rgb(36, 180, 216) 60%
-    ); */
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right,
     rgb(198, 28, 99),
     rgba(255, 255, 255, 0.5)
   );
+}
+
+/* Button Section */
+.container {
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.gradient-button {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.4s;
+  box-shadow: 0 4px 15px rgba(255, 118, 136, 0.4);
+}
+
+.gradient-button:hover {
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+  box-shadow: 0 6px 20px rgba(255, 118, 136, 0.6);
+  transform: scale(1.05);
 }

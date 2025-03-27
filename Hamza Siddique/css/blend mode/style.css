@@ -1,0 +1,20 @@
+.opt{
+    text-align: center;
+}
+
+.first{
+    border: 1px solid black;
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    background-image: linear-gradient(to right, purple, black), url(https://youmatter.world/app/uploads/2019/11/tech-planet.jpg);
+    background-blend-mode:screen;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    border-radius: 15px;
+    
+     
+    
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome and Swiper CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script defer src="main.js"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- Dark/Light Mode Toggle Button -->
+  <button id="toggle-dark-mode" class="toggle-mode-btn">
+    <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+  </button>  
+  <main>
+    <aside>
+      <ul class="Links">
+        <li onclick="Navigate(0)" class="activeLink">
+          <i class="fa-solid fa-house"></i>
+          <p>Home</p>
+        </li>
+        <li onclick="Navigate(1)">
+          <i class="fa-solid fa-user"></i>
+          <p>About Me</p>
+        </li>
+        <li onclick="Navigate(2)">
+          <i class="fa-solid fa-list"></i>
+          <p>Services</p>
+        </li>
+        <li onclick="Navigate(3)">
+          <i class="fa-solid fa-image"></i>
+          <p>Gallery</p>
+        </li>
+        <li onclick="Navigate(4)">
+          <i class="fa-solid fa-comments"></i>
+          <p>Contact Me</p>
+        </li>
+      </ul>
+    </aside>
+    <div class="swiper mySwiper">
+      <div class="SlideContainer swiper-wrapper">
+        <!-- Home Slide -->
+        <div class="swiper-slide home-slide animated-element">
+          <div class="home-wrapper">
+            <!-- Left side: Text Content -->
+            <div class="HomeContent">
+              <h1>Hi... &nbsp;&nbsp; I'm <span class="stylized-name">ARBAZ</span>,</h1>
+              <h2>A <span class="proffesions">Web Developer</span></h2>
+              <p class="heroline">
+                I am a versatile <b>Full Stack Developer</b> with a passion for crafting scalable and robust solutions.
+                I excel in both <b>front-end</b> and <b>back-end</b> technologies to deliver seamless user experiences.
+                I thrive on solving complex challenges through innovative design and efficient coding practices.
+                My collaborative approach and agile methodology ensure timely, high-quality project outcomes.
+                Dedicated to continuous learning, I stay ahead of industry trends and embrace emerging technologies.
+              </p>
+            </div>
+            <!-- Right side: Image & Decorations -->
+            <div class="SlideImg">
+              <div class="top-right-corner">
+                <hr class="hr1">
+                <hr class="hr2">
+              </div>
+              <img src="arbaz.jpeg" alt="Profile Image">
+              <div class="bottom-left-corner">
+                <hr class="hr1">
+                <hr class="hr2">
+              </div>
+            </div>
+          </div>
+          <p class="slide-help">
+            Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+          </p>
+        </div>
+        
+        <!-- About Me Slide -->
+        <div class="swiper-slide about-me-slide animated-element">
+          <div class="about-us">
+            <h1 class="heading">About Me</h1>
+            <h3 class="sub-heading">
+              I'm ARBAZ, <span class="profession">Web Developer</span>
+            </h3>
+            <p class="aboutme-details">
+              I excel in crafting responsive front-end interfaces using modern frameworks and seamless back-end integrations.
+              I have strong expertise in API development, microservices, and cloud-based architectures.
+              I consistently deliver scalable, efficient solutions by leveraging agile methodologies and clean coding practices.
+            </p>
+            <div class="about-me-content">
+              <!-- Left Column: Basic Info & Details -->
+              <div class="about-me-info">
+                <ul class="about-me-table">
+                  <li><span>Experience:</span> 5+ Years</li>
+                  <li><span>Country:</span> Pakistan</li>
+                  <li><span>Availability:</span> 24/7</li>
+                  <li><span>Satisfied Clients:</span> 50+</li>
+                  <li><span>Age:</span> 28</li>
+                  <li><span>Phone:</span> +923027833122</li>
+                  <li><span>Languages:</span> HTML, CSS, JavaScript</li>
+                  <li><span>Degree:</span> BSc Computer Science</li>
+                </ul>
+                <div class="buttonGroup">
+                  <a href="https://www.linkedin.com/in/arbaz-ahmad-524b37258/" class="hire-me-btn" target="_blank" role="button">
+                    Hire Me
+                  </a>
+                  <a href="mailto:arbaza124@gmail.com?subject=Contact%20Me" class="contact-me-btn" role="button">
+                    Contact Me
+                  </a>
+                </div>
+              </div>
+              <!-- Right Column: Skills -->
+              <div class="about-me-skills">
+                <ul class="skill-list">
+                  <li>
+                    <p>HTML</p>
+                    <div class="bar">
+                      <div class="active-bar" style="width: 99%;"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>CSS</p>
+                    <div class="bar">
+                      <div class="active-bar" style="width: 80%;"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>JavaScript</p>
+                    <div class="bar">
+                      <div class="active-bar" style="width: 85%;"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Python</p>
+                    <div class="bar">
+                      <div class="active-bar" style="width: 50%;"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Django</p>
+                    <div class="bar">
+                      <div class="active-bar" style="width: 60%;"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services Slide -->
+        <div class="swiper-slide services animated-element">
+          <h1 class="heading">Services</h1>
+          <div class="services-grid">
+            <div class="service">
+              <div class="service-icon">
+                <i class="fa-solid fa-pen-ruler"></i>
+              </div>
+              <h2>Web Design</h2>
+              <p>
+                I create visually compelling and user-centric interfaces that blend aesthetics with functionality.
+                My designs focus on delivering an intuitive user experience that aligns with modern digital trends.
+              </p>
+            </div>
+            <div class="service">
+              <div class="service-icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                I build robust, scalable websites and applications integrating both front-end innovation and back-end efficiency.
+                My development process emphasizes clean coding practices, responsive design, and seamless user interactions.
+              </p>
+            </div>
+            <div class="service">
+              <div class="service-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <h2>SEO</h2>
+              <p>
+                I leverage data-driven strategies and keyword insights to optimize website visibility and drive organic growth.
+                My approach ensures that digital content meets both user intent and search engine algorithms for maximum reach.
+              </p>
+            </div>
+            <div class="service">
+              <div class="service-icon">
+                <i class="fa-solid fa-image"></i>
+              </div>
+              <h2>Graphic Design</h2>
+              <p>
+                I transform complex ideas into captivating visual narratives through expert use of typography, color, and imagery.
+                My designs elevate brand identities and communicate messages clearly and creatively.
+              </p>
+            </div>
+            <div class="service">
+              <div class="service-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <h2>Soft Development</h2>
+              <p>
+                I architect and develop tailored software solutions that address specific business challenges with precision.
+                My commitment to agile methodologies ensures timely, efficient, and scalable applications.
+              </p>
+            </div>
+            <div class="service">
+              <div class="service-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h2>Database Admin</h2>
+              <p>
+                I manage and optimize databases to guarantee data integrity, security, and high performance.
+                My expertise includes backup strategies, efficient query design, and robust data management practices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Slide -->
+        <div class="swiper-slide gallery animated-element">
+          <h1 class="heading">Gallery</h1>
+          <div class="projects-grid">
+            <div class="project">
+              <img src="https://picsum.photos/200/300?random=1" alt="">
+            </div>
+            <div class="project">
+              <img src="https://picsum.photos/200/300?random=2" alt="">
+            </div>
+            <div class="project">
+              <img src="https://picsum.photos/200/300?random=3" alt="">
+            </div>
+            <div class="project">
+              <img src="https://picsum.photos/200/300?random=4" alt="">
+            </div>
+            <div class="project">
+              <img src="https://picsum.photos/200/300?random=5" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Me Slide -->
+        <div class="swiper-slide contactMe animated-element">
+          <h1 class="heading">Contact Me</h1>
+          <div class="contact-container">
+            <!-- Contact Details -->
+            <div class="contact-details">
+
+              <div class="contactinfo">
+                <i class="fa-solid fa-phone"></i>
+                <dev class="info">
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/923027833122" target="_blank">+92-302-7833122</a></p>
+                </dev>
+              </div>
+            
+              <div class="contactinfo">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info">
+                  <h3>Location</h3>
+                  <p>2722, Al-Safa, Jedddah</p>
+                </div>
+              </div>
+
+              <div class="contactinfo">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="info">
+                  <h3>Email</h3>
+                  <p><a href="mailto:arbaza124@gmail.com">arbaza124@gmail.com</a></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+              <form>
+                <h2>Send Me A Message</h2>
+                <div class="SocialLinks">
+                  <a href="https://www.instagram.com/arbaza124?igsh=MTY0bHpwb3lmcmV3MA%3D%3D&utm_source=qr" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://github.com/Mian-Arbaz" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://x.com/mianarbaz124?s=21" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/arbaz-ahmad-524b37258" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://codepen.io" target="_blank">
+                    <i class="fa-brands fa-codepen"></i>
+                  </a>
+                </div>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="10" placeholder="Type your Message here..." required></textarea>
+                <button class="primary" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <ul>
+      <li>Copyright @ 2025 ARBAZ.</li>
+    </ul>
+  </footer>
+</body>
+</html>
