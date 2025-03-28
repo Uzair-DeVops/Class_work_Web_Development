@@ -1,0 +1,54 @@
+:root {
+    --div-height:100px;
+    --div-width:100px;
+}
+
+.one, .two, .three{
+    height:var(--div-height);
+    width:var(--div-width);
+    background-color: purple;
+}
+.one{
+    position: absolute;
+    border-radius: 6px;
+}
+.two{
+    background-color: brown;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+    border-radius: 6px;
+    z-index: 1;
+
+}
+
+.three{
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 6px;
+    z-index: 3;
+}
+
+.resize{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+.dev{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 500px;
+    overflow: auto;
+    resize: both;
+    cursor:cell;
+
+
+}

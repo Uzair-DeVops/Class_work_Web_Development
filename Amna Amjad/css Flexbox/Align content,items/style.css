@@ -1,0 +1,104 @@
+.parent1{
+    height: 50%;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid crimson;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.child01{
+    border: 1px solid seagreen;
+}
+.child1{
+    background-color:  violet;
+}
+
+.child2{
+    background-color:  sienna;
+}
+
+.child3{
+    background-color:  darkgoldenrod;
+}
+
+.child4{
+    background-color:  teal;
+}
+
+.child5{
+    background-color:  lime;
+}
+.parent2{
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid crimson;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.child02{
+    border: 1px solid seagreen;
+}
+.child6{
+    background-color:  violet;
+}
+
+.child7{
+    background-color:  sienna;
+}
+
+.child8{
+    background-color:  darkgoldenrod;
+}
+
+.child9{
+    background-color:  teal;
+}
+
+.child10{
+    background-color:  lime;
+}
+.conta{
+    
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid crimson;
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    border: 1px solid black;
+    text-align: center;    
+}
+.item1{
+    background-color: aqua;  
+    align-self: flex-end;  
+}
+
+.item2{
+    background-color:blueviolet; 
+    align-self: flex-start; 
+    flex-basis: 500px;
+    flex-grow: 5;
+}
+
+.item3{
+    background-color:palevioletred;
+    flex-shrink: 10;
+    flex-basis: 500px;
+}
+
+.item4{
+    background-color:olive; 
+    flex-grow: 3;  
+}
+.item5{
+    background-color:lawngreen;
+    align-self: center;
+    
+}
+.item6{
+    background-color:firebrick;
+}

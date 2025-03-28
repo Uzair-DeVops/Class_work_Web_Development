@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e8ecf8;
+    color: #212121;
+  }
+  
+  header, section {
+    margin-bottom: 60px;
+  }
+  
+  h1, h2, h3, h4 {
+    margin-bottom: 30px;
+  }
+  
+  /* Ordered list with Upper Roman*/
+  .upper-roman {
+    list-style-type: upper-roman;
+    margin-left: 40px;
+  }
+  
+  /* Ordered list with Upper Alpha*/
+  .upper-alpha {
+    list-style-type: upper-alpha;
+    margin-left: 40px;
+  }
+  
+  /* Unordered list with a custom image marker */
+  .custom-image {
+    list-style-image: url('nasa_img.jpeg');
+    margin-left: 90px;
+    padding-right: 20px;
+    font-size: 2em;
+    line-height: 1.5;
+    color: #424242;
+    font-weight: bold;
+  }
+  /* 'inside' positions the marker inside the content box */
+  .inside {
+    font-size: 2em;
+    list-style-position: inside;
+    margin-left: 20px;
+  }
+  
+  /* 'outside' positions the marker outside the content box */
+  .outside {
+    font-size: 2em;
+    list-style-position: outside;
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+  
+  /* Marker offset can be simulated by adding left padding */
+  .marker-offset {
+    font-size: 2em;
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 40px;
+  }
+  
+  /* Layout for list style position section */
+  .list-position {
+    display: flex;
+    gap: 40px;
+  }
+
+  /* Background image with properties: no-repeat, cover, center position */
+ .bg-example {
+    background-image: url('nasa_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Background attachment: scroll (default behavior) */
+  .bg-scroll {
+    background-image: url('nasa_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Background attachment: fixed */
+  .bg-fixed {
+    background-image: url('nasa_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Background attachment: local */
+  .bg-local {
+    background-image: url('nasa_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Linear gradient background from left to right */
+  .gradient-linear {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Radial gradient background with a circular shape */
+  .gradient-radial {
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Conic gradient background starting from 0 degrees */
+  .gradient-conic {
+    background: conic-gradient(from 75deg, #ff7e5f, #feb47b);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  

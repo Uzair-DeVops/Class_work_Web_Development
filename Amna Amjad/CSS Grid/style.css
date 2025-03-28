@@ -1,0 +1,48 @@
+.conta{
+    background-color: aquamarine;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 100px 100px repeat(2,100px);
+    grid-gap: 8px;
+}
+.item{
+    border: 1px solid black;
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color:brown;
+}
+.item3{
+    background-color: lawngreen;
+}
+.item4{
+    background-color:red;
+}
+.item5{
+    background-color: rebeccapurple;
+}
+.item6{
+    background-color: magenta;
+}
+.item7{
+    background-color: gold;
+}
+.item8{
+    background-color: navy;
+}
+.item9{
+    background-color:forestgreen;
+}
+.item10{
+    background-color:rgb(197, 99, 43);
+}
+.item11{
+    background-color:crimson;
+}
+.item12{
+    background-color:darkmagenta;
+}

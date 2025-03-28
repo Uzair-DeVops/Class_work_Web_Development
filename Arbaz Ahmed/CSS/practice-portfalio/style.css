@@ -1,0 +1,596 @@
+/* ---------- CSS Variables ---------- */
+:root {
+    --primary-bg: #e2dede;
+    --secondary-bg: #ebf6fa;
+    --accent-color: #BFA670;
+    --hover-color: #f4c244;
+    --text-color: #727D73;
+    --button-bg: #BFA670;
+    --bg-color: #ffffff;
+    --name-color: rgb(233, 157, 106);
+    --body-text-color: #789DBC;
+    --transition-speed: 0.3s;
+  }
+  
+  /* Dark Mode Overrides */
+  .dark-mode {
+    --primary-bg: #393646;
+    --secondary-bg: #4F4557;
+    --accent-color: #rgb(205, 127, 50);
+    --text-color: #F4EEE0;
+    --button-bg: #3a859a;
+    --bg-color: #f7f5f5;
+    --body-text-color: #b3a68a;
+
+    
+  }
+  
+  /* ---------- Global Styles ---------- */
+  @import url('https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Bonbon&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* Use min-height so content can push footer down */
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--body-text-color);
+    font-family: 'Poppins', sans-serif;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+  }
+  
+  main {
+    display: flex;
+    min-height: calc(100vh - 60px); /* Reserve space for footer */
+    width: 100%;
+  }
+  
+  /* ---------- Sidebar ---------- */
+  aside {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(20px);
+    padding: 20px 0;
+  }
+  
+  .Links {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  aside li {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    color: var(--text-color);
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: color var(--transition-speed);
+  }
+  
+  aside li:hover {
+    color: var(--accent-color);
+  }
+  
+  aside li::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 0;
+    background: linear-gradient(to left, transparent, #ffffff24, transparent);
+    bottom: 0;
+  }
+  
+  aside li i {
+    font-size: 1.3rem;
+  }
+  
+  .activeLink {
+    color: var(--accent-color);
+  }
+  
+  /* ---------- Swiper Container ---------- */
+  .mySwiper {
+    flex: 1;
+    background-color: var(--secondary-bg);
+    overflow: hidden;
+  }
+  
+  .swiper-slide {
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--secondary-bg);
+    padding: 50px;
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  /* ---------- Home Slide ---------- */
+  .home-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .stylized-name {
+    font-family: 'Bonbon', cursive;
+    font-size: 5rem;
+    color: var(--name-color);
+    margin-bottom: 10px;
+  }
+  
+  .home-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .HomeContent {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .HomeContent h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .HomeContent h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .heroline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .proffesions {
+    color: var(--accent-color);
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .buttonGroup a {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color var(--transition-speed);
+  }
+  
+  .hire-me-btn {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .hire-me-btn:hover {
+    background-color: #e65c00;
+  }
+  
+  .contact-me-btn {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .contact-me-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .SlideImg {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .SlideImg img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .top-right-corner,
+  .bottom-left-corner {
+    position: absolute;
+  }
+  
+  .top-right-corner {
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%) rotate(90deg);
+  }
+  
+  .bottom-left-corner {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%) rotate(-90deg);
+  }
+  
+  .hr1 {
+    width: 80px;
+    height: 5px;
+    border: none;
+    background-color: var(--accent-color);
+    margin: 2px 0;
+  }
+  
+  .hr2 {
+    width: 5px;
+    height: 80px;
+    border: none;
+    background-color: var(--accent-color);
+    margin: 2px;
+  }
+  
+  .slide-help {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgba(35, 3, 52, 0.47);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color var(--transition-speed);
+    margin-top: auto;
+  }
+  
+  /* ---------- About Me Slide ---------- */
+  .about-me-slide {
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+    overflow-y: auto;
+    padding: 100px 20px;
+  }
+  
+  .about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-us .heading {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+  }
+  
+  .about-us .sub-heading {
+    color: var(--name-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .aboutme-details {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  .about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .about-me-info {
+    flex: 1 1 300px;
+  }
+  
+  .about-me-table {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    text-align: left;
+  }
+  
+  .about-me-table li {
+    padding: 10px;
+    border-left: 1.5px solid rgba(26, 25, 25, 0.2);
+    border-bottom: 1.5px solid rgba(26, 25, 25, 0.2);
+    font-size: 1rem;
+  }
+  
+  .about-me-table li span {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-right: 10px;
+  }
+  
+  .about-me-skills {
+    flex: 1 1 300px;
+  }
+  
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .skill-list li {
+    margin-bottom: 20px;
+  }
+  
+  .skill-list p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+  
+  .bar {
+    width: 100%;
+    height: 15px;
+    background-color: var(--primary-bg);
+    border-radius: 10px;
+  }
+  
+  .active-bar {
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+  }
+  
+  /* ---------- Services Slide ---------- */
+  .services {
+    padding: 100px 20px;
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+  }
+  
+  .services .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: var(--accent-color);
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service {
+    background-color: var(--primary-bg);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color var(--transition-speed), color var(--transition-speed) ;
+    cursor: pointer;
+  }
+  
+  .service:hover {
+    background-color: var(--text-color);
+    color: var(--primary-bg);
+  }
+  
+  .service .service-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: var(--accent-color);
+  }
+  
+  .service h2 {
+    margin: 10px 0;
+    color: var(--accent-color);
+  }
+  
+  .service p {
+    font-size: 1rem;
+  }
+  
+  /* ---------- Gallery Slide ---------- */
+  .gallery .heading {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 40px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project {
+    margin-top: 25px;
+    background: var(--primary-bg);
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* ---------- Contact Me Slide ---------- */
+  .contactMe {
+    padding: 100px 20px;
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+  }
+  
+  .contactMe .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: var(--accent-color);
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contactinfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--primary-bg);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contactinfo i {
+    font-size: 2rem;
+    color: var(--accent-color);
+  }
+  
+  .contactinfo .info h3 {
+    margin-bottom: 5px;
+    color: var(--accent-color);
+  }
+  
+  .contact-form form {
+    background-color: var(--primary-bg);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .SocialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 40px;
+    color: white;
+    height: 50px;
+  }
+  
+  .SocialLinks a {
+    transition: background-color var(--transition-speed);
+  }
+  
+  .SocialLinks i {
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .SocialLinks i:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+  }
+  
+  .contact-form form input:focus,
+  .contact-form form textarea:focus {
+    outline: 1px solid var(--accent-color);
+  }
+  
+  .contact-form form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--button-bg);
+    color: var(--primary-bg);
+    font-size: 1.2rem;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  /* ---------- Footer ---------- */
+  footer {
+    background-color: var(--primary-bg);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    color: var(--text-color);
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+  
+  /* ---------- Toggle Button ---------- */
+  .toggle-mode-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--button-bg);
+    color: var(--primary-bg);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+
+  
+ }
+  .toggle-mode-btn i {
+    font-size: 1.2em;
+  } 
+  /* ---------- Fade-In Animation ---------- */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* ---------- Media Queries for Responsiveness ---------- */
+  @media (max-width: 768px) {
+    aside {
+      width: 70px;
+      padding: 10px 0;
+    }
+    .Links li p {
+      display: none;
+    }
+    .mySwiper {
+      width: calc(100% - 70px);
+    }
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

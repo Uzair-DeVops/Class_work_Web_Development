@@ -1,0 +1,53 @@
+.opacity-example {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    opacity: 0.5; 
+}
+
+/* Background Blend Mode */
+.background-blend {
+    width: 400px;
+    height: 150px;
+    background: url("img.jpeg") no-repeat center, red;
+    background-blend-mode: multiply; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mix Blend Mode  */
+.mix-blend {
+    background-color: yellow;
+    color: black;
+    font-size: 2em;
+    padding: 10px;
+    mix-blend-mode: difference; 
+}
+
+/* Display Property  */
+.display-example {
+    display: block; 
+    font-size: 2em;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.display-inline {
+    font-size: 2em;
+    display: inline;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
+
+/* Visibility Property */
+.visibility-hidden {
+    visibility: hidden; 
+}
+
+.visibility-collapse {
+    display: table-row;
+    visibility: collapse; 
+    
+}

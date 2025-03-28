@@ -1,0 +1,42 @@
+:root {
+    --border-color: blue ;
+    --border-width: 6px;
+    --animation-speed: 2s;
+  }
+  
+  .animated-border {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(209, 53, 53);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Border Animation */
+  .animated-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    background: conic-gradient(from 0deg, var(--border-color) 0deg, transparent 90deg);
+    mask: linear-gradient(rgb(135, 64, 64) 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+    animation: borderRotate var(--animation-speed) linear infinite;
+  }
+  
+  @keyframes borderRotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

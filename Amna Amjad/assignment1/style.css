@@ -1,0 +1,145 @@
+html body{
+    height: 100%;
+    margin: 0; 
+    box-sizing: border-box;
+}
+.hel{
+    height: 5%;
+    width: 100%;
+    background-color: rgb(45, 170, 158);
+    color: rgb(234, 234, 234);
+    text-align: center;
+}
+.hell{
+    background-color: #667866;
+    height: 5%;
+    color: #FFF0BD;
+    text-align: center;
+    margin-top: 0.5%;
+
+}
+.BG{
+    background-color: rgb(100, 13, 95);
+    height: 5%;
+    color: rgb(255, 178, 0);
+    text-align: center;
+    margin-top: 0.5%;
+    border: 3px solid #D91656;
+    border-radius: 10px;
+}
+.BG1{
+    background-color: rgb(100, 13, 95);
+    height: 8%;
+    color: rgb(255, 178, 0);
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 0.5%;
+    border-top: 3px solid #D91656;
+    border-bottom: 3px dotted #D91656;
+    border-left: 3px dashed #D91656;
+    border-right: 3px double #D91656;
+
+}
+.BG2{
+    background-color: rgb(255, 207, 80);
+    height: 8%;
+    color: #FEFAE0;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 0.5%;
+    border-top: 5px groove rgb(164, 180, 101);
+    border-bottom: 5px ridge rgb(164, 180, 101);
+    border-left: 5px inset rgb(164, 180, 101);
+    border-right: 5px outset rgb(164, 180, 101);
+
+}
+.BG3{
+    background-color: rgb(255, 207, 80);
+    height: 8%;
+    color: #FEFAE0;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 0.5%;
+    border-top: 5px solid rgb(164, 180, 101);
+    border-bottom: 5px ridge rgb(164, 180, 101);
+    border-left: 5px hidden rgb(164, 180, 101);
+    border-right: 5px none rgb(164, 180, 101);
+}
+.BG4{
+    background-color: rgb(242, 178, 140);
+    border: 1px solid black;
+    outline: 2px solid rgb(184, 33, 50);
+    height: 5%;
+    margin-top: 1% ;
+    text-align:center;
+    color: rgb(184, 33, 50);
+}
+.BG5{
+    background-color: rgb(184, 33, 50);
+    color: #F2B28C;
+    outline: 3px solid rgb(210, 102, 90);
+    outline-offset: 2px;
+    border: 1px solid black;
+    height: 5%;
+    margin-top: 1%;
+    text-align:center;
+
+}
+
+.BG6{
+    background-color: rgb(136, 158, 115);
+    color: #F4D793;
+    outline: 3px groove rgb(169, 74, 74);
+    outline-offset: 2px;
+    border: 1px solid black;
+    height: 5%;
+    margin-top: 1%;
+    text-align:center;
+
+}
+.circle{
+    background-color: #667866;
+    border-radius: 80%;
+    height: 20%;
+    width: 10%;
+    margin-top: 1%;
+    position: absolute;
+    right: 50%;
+    border: 2px solid rgb(255, 178, 0);
+}
+.gd{
+    border: 3px solid #667866;
+    margin-top: 12%;
+    height: 40%;
+    padding: 1%;
+    color: rgb(100, 13, 95);
+}
+.img1{
+    float: right;
+}
+.gd::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+.units{
+    text-align: center;
+    background-color: rgb(169, 74, 74);
+    margin-top: 2%;
+    font-size: 30px;
+    color: #FFF0BD;
+    border: 2px solid black;
+    height: 5%;
+    padding: 5%;
+}
+span{
+    font-size:2em;
+}
+.pad{
+    margin-top: 2%;
+    border:1px solid rgb(100, 13, 95);
+    padding: 2%;
+    color: #D91656;
+    text-align: right;
+
+}
