@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+.cont{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.conta{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 200px;
+    top:10px; 
+}
+.contai{
+    position: fixed;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet 
+ 
+}

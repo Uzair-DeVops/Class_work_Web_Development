@@ -1,0 +1,157 @@
+
+:root{
+    --primary-para-size:50px;
+    --primary-para-color: white;
+    --primary-back-color:rgb(134, 58, 232);
+    --max-width:900px;
+    --font-size:16px;
+}
+body{
+    font-family: "Mukta", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: -0.5px;
+    line-height: 2;
+}
+div{
+    display: block;
+}
+p{
+    display: block;
+}
+
+.first{
+    background-color:var(--primary-back-color);
+    color: var(--primary-para-color);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.first .blog {
+    display: inline-block;
+    width: 75%;
+    font-size: 80px;
+    max-width: var(--max-width);
+    line-height: 1.2;
+
+}
+.first .para {
+    text-align: center;
+    width: 75%;
+    font-size: var(--font-size);
+    margin: 20px 0px;
+    max-width: var(--max-width);
+    line-height: 1.8;
+    
+}
+.first hr{
+    width: 50%;
+    margin-top: 32px;
+}
+.info{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin: 14px 0px;
+} 
+span{
+    color: rgb(233, 84, 0);
+}
+.mid{
+    margin: 0px auto;
+    padding: 32px;
+    max-width: var(--max-width);
+}
+h2{
+    margin: 41.5px 0px;
+    font-family: "Bitter", serif;
+    font-size :55px;
+    font-weight: 500;
+    line-height: 1;
+}
+.para1{
+    text-transform: uppercase;
+    margin: 40px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    /* letter-spacing: -1.1px; */
+   
+}
+code{
+    font-weight: bold;
+    color: rgb(233, 84, 0);
+}
+.para2,.para3,.para4,.para5,.para6,.para7,.para8 {
+    font-size: 16px;
+}
+blockquote{
+    border-left: 2px solid rgb(233, 84, 0);
+    padding-left: 20px;
+    margin: 32px 0px 32px 32px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+}
+cite{
+    font-weight: 600;
+    display: block;
+    margin-left: 20px;
+}
+.mid hr{
+    width: 105%;
+}
+h3,h4,h5,h6{
+    font-family: Bitter, serif;
+    font-weight: 300;
+    margin: 40px 0px;
+}
+h3{
+    font-size: 40px;
+    line-height: 1;
+}
+h4{
+    font-size: 32px;
+    line-height: 1;
+}
+h5{
+    font-size: 28px;
+    line-height: 1;
+}
+h6{
+    font-size: 20px;
+    line-height: 1;
+}
+.head{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+footer{
+    display: block;
+    background-color: rgb(134, 58, 232);  
+    
+}
+.foot{
+    display: block;
+    text-align: center;
+    padding: 28px 0px;
+    margin: 0px 50px;
+}
+.foot a{
+    width: 100%;
+    max-width: var(--max-width);
+    color: white;
+    margin: 0px auto;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    text-decoration: underline;
+}
+

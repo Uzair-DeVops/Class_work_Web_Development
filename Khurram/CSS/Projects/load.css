@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  background: rgb(39, 38, 38);
+}
+
+.loader {
+  border: 10px solid black;
+  animation: spin 1s linear infinite;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-left: 8px solid rgb(93, 157, 183);
+  border-bottom: 8px solid rgb(93, 157, 183);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

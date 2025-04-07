@@ -1,0 +1,53 @@
+.parent1{
+    padding: 30px;
+    border: 2px solid orchid;
+    width: 60%;
+    display: flex; /*By Default it is streched*/
+    flex-direction: row;
+    flex-direction: row-reverse;
+}
+.child01{
+    border: 1px solid purple;
+}
+.child1{
+    background-color: forestgreen;
+}
+.child2{
+    background-color: yellow;
+}
+.child3{
+    background-color: lightcoral;
+}
+.child4{
+    background-color: darkcyan;
+}
+.child5{
+    background-color: salmon;
+}
+.parent2{
+    margin-top: 2%;
+    padding: 30px;
+    border: 2px solid orchid;
+    width: 60%;
+    display: flex; /*By Default it is streched*/
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.child02{
+    border: 1px solid purple;
+}
+.child6{
+    background-color: forestgreen;
+}
+.child7{
+    background-color: yellow;
+}
+.child8{
+    background-color: lightcoral;
+}
+.child9{
+    background-color: darkcyan;
+}
+.child10{
+    background-color: salmon;
+}

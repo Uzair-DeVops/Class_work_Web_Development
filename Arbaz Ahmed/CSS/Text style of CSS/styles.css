@@ -1,11 +1,10 @@
-/* Global Styles */
 * {
     box-sizing: border-box;
   }
   body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 2;
     margin: 20px;
     padding: 20px;
     background-color: #f0f0f0;
@@ -18,8 +17,8 @@
   
   /* Common styling for all demo blocks */
   .demo-block {
-    background: #fff;
-    border: 1px solid #ccc;
+    background: #ffffff;
+    border: 1px solid #cccccc;
     padding: 10px;
     margin-bottom: 15px;
   }
@@ -89,12 +88,12 @@
   
   /* letter-spacing: Increases the spacing between characters by 2px */
   .letter-spacing p {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
   }
   
   /* line-height: Sets the space between lines to 2 times the font size */
   .line-height p {
-    line-height: 2;
+    line-height: 4;
   }
   
   /* direction: Sets the text direction to right-to-left */
@@ -104,6 +103,6 @@
   
   /* word-spacing: Increases the space between words by 10px */
   .word-spacing p {
-    word-spacing: 10px;
+    word-spacing: 50px;
   }
   
