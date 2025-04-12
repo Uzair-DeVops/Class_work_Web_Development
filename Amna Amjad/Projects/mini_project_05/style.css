@@ -1,0 +1,124 @@
+body{
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0px 80px;
+    padding: 0px 16px;
+
+    & .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0px ;
+        & .logo{
+            font-weight: bolder;
+            font-size: 32px;
+            text-align: center;
+        }
+        & .icons{
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            align-items: center;
+            cursor: pointer;
+            font-size: 18px;
+    
+            & a{
+                text-decoration: none;
+                color: black;
+            }
+            & a:hover{
+                text-decoration: underline;
+            }
+    
+            & img{
+                width: 20px;
+                height: 20px;
+            }
+    
+        }
+        
+    }
+    & .project-grid{
+        width: 100%;
+        gap: 16px;
+        display: grid;
+        grid-template-areas:
+        "eth eth alphabet"
+        "eth eth traveler"
+        "astro cube traveler"
+        "cup insta insta"
+        "cup insta insta"
+        "foam foam dimensional"
+        "foam foam dimensional";
+       
+        & #eth{
+            grid-area: eth;
+        }
+        & #alphabet{
+            grid-area: alphabet;
+        } 
+        & #traveler{
+            grid-area: traveler;
+        }
+        & #astro{
+            grid-area: astro;
+         
+        }
+        & #cube{
+            grid-area: cube;
+        }
+        & #cup{
+            grid-area: cup;
+        } 
+        & #insta{
+            grid-area: insta;
+        } 
+        & #foam{
+            grid-area: foam;
+        }
+        & #dimensional{
+            grid-area: dimensional;
+        }
+        
+        & .project{
+            position: relative;
+
+            & .overlay{
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                align-items: center;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.1);
+                opacity: 0;
+                margin: 0;
+                transition: 0.3s;
+                font-size: 36px;
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            & img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            & .overlay:hover{
+                opacity: 3;
+            }
+            & .white{
+                color: white;
+            }
+        }
+    }
+    & .foot{
+        text-align: center;
+        padding: 40px 10px;
+        font-size: 20px;
+    }
+}
