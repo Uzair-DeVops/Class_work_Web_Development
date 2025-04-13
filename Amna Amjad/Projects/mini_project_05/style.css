@@ -2,19 +2,39 @@ body{
     margin: 8px;
     padding: 0;
     box-sizing: border-box;
+
+    /* @media (max-width:800px){
+        margin: 0px;
+    } */
 }
 .container{
     margin: 0px 80px;
     padding: 0px 16px;
+    @media (max-width:800px){
+        margin: 10px;
+        padding: 0px;
+    }
 
     & .navbar{
         display: flex;
         justify-content: space-between;
         padding: 60px 0px ;
+
+        @media (max-width:800px){
+            flex-direction: column;
+            padding: 16px 0px;
+            gap: 20px;
+            align-items: center;
+        }
+
         & .logo{
             font-weight: bolder;
             font-size: 32px;
             text-align: center;
+
+            @media (max-width:800px){
+                font-size: 24px;
+            }
         }
         & .icons{
             display: flex;
@@ -23,6 +43,10 @@ body{
             align-items: center;
             cursor: pointer;
             font-size: 18px;
+
+            @media (max-width:800px){
+                justify-content: space-evenly;
+            }
     
             & a{
                 text-decoration: none;
@@ -36,9 +60,7 @@ body{
                 width: 20px;
                 height: 20px;
             }
-    
-        }
-        
+        }    
     }
     & .project-grid{
         width: 100%;
@@ -52,6 +74,20 @@ body{
         "cup insta insta"
         "foam foam dimensional"
         "foam foam dimensional";
+
+        @media (max-width:600px){
+            grid-template-areas:
+            "eth eth"
+            "alphabet alphabet"
+            "traveler traveler"
+            "cube astro"
+            "cup cup"
+            "insta insta"
+            "foam foam"
+            "dimensional dimensional";
+            gap: 8px;
+            margin-top: 10px;
+        }
        
         & #eth{
             grid-area: eth;
