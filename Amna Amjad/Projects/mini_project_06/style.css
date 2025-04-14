@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    padding: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 20px;
+
+    & a{
+        text-decoration: none;
+        color: orangered;
+        font-size: 20px;
+        text-transform: capitalize;
+        transition: color 0.3s ease-in;
+
+        
+    }
+    & a:hover{
+        color: black;
+    }
+}
+
