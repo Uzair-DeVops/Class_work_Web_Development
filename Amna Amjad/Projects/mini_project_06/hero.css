@@ -1,0 +1,59 @@
+/* hero.html  */
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(241, 80, 37, 0.75), rgba(0, 0, 0, 0.75)), url(image-2.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+
+    & .bg-content{
+        width: 50%;
+        color: white;
+        line-height: 2;
+
+        @media (max-width:900px){
+            width: 80%;
+            line-height: 1.5;
+            font-size: 20px;
+    
+        }
+
+        & .head{
+            font-size: 4rem;
+            text-transform: capitalize;
+            letter-spacing: 4px;
+        }
+        & .para{
+            font-size: 20px;
+            width: 80%;
+        max-width: 800px;
+        }
+    }
+
+
+}
+.foot{
+    padding: 50px;
+    & a{
+        background-color: white;
+        padding: 16px 20px;
+        margin: 30px;
+        font-size: 18px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        border: 3px solid orangered;
+        color: orangered;
+        text-decoration: none;
+    }
+
+}
