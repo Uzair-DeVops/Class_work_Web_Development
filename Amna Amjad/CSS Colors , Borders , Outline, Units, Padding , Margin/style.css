@@ -1,0 +1,38 @@
+/* 1 tag + 1 data inside it is element */
+.para{
+    border: 1px solid black;
+    outline: 6px solid blue;
+    outline-offset: 7px ;
+}
+.para1{
+    border: 1px dotted black;
+}
+.para2{
+    border: 1px dashed black;
+}
+.para3{
+    border: 4px double black;
+    color: #667866;
+}
+.para4{
+    border: 4px groove black;
+}
+.para5{
+    border: 4px ridge black;
+}
+
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: rgba(23, 184, 31, 0.4);
+    font-size: 1em;
+    border-top:1px solid #667866;
+    border-left: 1px solid black ;
+    border-radius: 5%;
+}

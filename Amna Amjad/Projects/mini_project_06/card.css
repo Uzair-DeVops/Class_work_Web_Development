@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding-top: 60px;
+    margin: 0;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+    width: 80%;
+    margin: 2rem auto;
+    gap: 40px;
+
+    & .card{
+        border: 1px solid gainsboro;
+
+        & .info{
+            line-height: 1.5;
+            padding: 16px;
+
+            & h2{
+                margin: 0px 0px 20px 0px;
+                text-transform: capitalize;
+            }
+            & p{
+                margin: 0;
+                color: grey;
+            }
+        }
+        & img{
+            width: 100%;
+            display: block;
+        }
+        & .footer{
+            display: flex;
+            background-color: gray;
+            padding: 16px 24px;
+            justify-content: space-around;
+        }
+    
+    
+    }
+    
+}
+.foot{
+    padding: 50px;
+    & a{
+        background-color: white;
+        padding: 16px 20px;
+        /* margin: 30px; */
+        font-size: 18px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        border: 3px solid orangered;
+        color: orangered;
+        text-decoration: none;
+    }
+
+}

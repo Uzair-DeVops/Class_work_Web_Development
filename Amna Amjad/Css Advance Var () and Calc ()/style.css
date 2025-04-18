@@ -1,0 +1,49 @@
+:root{
+    --para-height:20px;
+    --para-color: green;
+    --heading: 50px;
+    --primary-heading:50px;
+    --Secondary-heading:40px;
+    --Third-heading:30px;
+    --Fourth-heading:20px;
+}
+p{
+    font-size: var(--para-height);
+    color: var(--para-color);
+}
+.head{
+    font-size: var(--heading);
+}
+span{
+    font-size: var(--para-height);
+    color: chocolate;
+}
+.wq {
+    font-size: var(--heading);
+}
+.sami{
+    font-size: var(--para-height);
+    color: brown;
+}
+.heading1{
+    font-size: calc(var(--primary-heading) - 10px);
+
+}
+
+.heading2{
+    font-size: calc(var(--Third-heading) - 20px);
+}
+
+.heading3{
+    font-size: calc(var(--Secondary-heading) - 8px);
+    color: cadetblue;
+}
+
+.heading4{
+    font-size: calc(var(--Fourth-heading) + 50px);
+    color: var(--para-color);
+}
+.heading5{
+    font-size: calc(var(--primary-heading) - 20px);
+    color: violet;
+}
