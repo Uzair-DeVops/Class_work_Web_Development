@@ -1,0 +1,42 @@
+.head {
+    text-align: center;
+    font-size: 40px;
+}
+
+.box {
+    /* Existing styling */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;    
+    background-color: #e72323;
+    
+    /* New properties */
+    overflow: auto;           /* Handles overflowing content */
+    border-radius: 10px;      /* Rounded corners */
+    float: left;              /* Floats the element to the left */
+    clear: both;              /* Clears float on both sides */
+}
+
+.first{
+    width: 30%;
+    height: 300px;
+    box-sizing: 20px; 
+}
+
+
+.second{
+    width: 30%;
+    height: 300px;
+    box-sizing: 20px; 
+}
+
+.third{
+    width: 30%;
+    height: 300px;
+    box-sizing: 20px; 
+} 
+
+
+
+
+    `

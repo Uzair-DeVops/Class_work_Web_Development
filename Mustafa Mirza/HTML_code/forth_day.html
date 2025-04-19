@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #4a0000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            width: 400px;
+            max-height: 80vh; /* Set a maximum height for the form */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+        .form-group {
+            margin-bottom: 15px; /* Adjusted margin for better spacing */
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        .optional-label::after {
+            content: " (Optional)";
+            color: #666;
+            font-weight: normal;
+            font-size: 0.9em;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        input:focus, select:focus {
+            border-color: #ff4444;
+            outline: none;
+        }
+        button {
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.02);
+            background: linear-gradient(135deg, #cc0000, #990000);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px; /* Adjusted margin for better spacing */
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>📝 User Registration Form</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="firstName">👤 First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">👤 Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">📧 Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">📱 Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">⚧ Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">🎂 Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="street" class="optional-label">🏠 Street Address:</label>
+                <input type="text" id="street" name="street">
+            </div>
+
+            <div class="form-group">
+                <label for="city" class="optional-label">🌆 City:</label>
+                <input type="text" id="city" name="city">
+            </div>
+
+            <div class="form-group">
+                <label for="state" class="optional-label">🗺️ State/Province:</label>
+                <input type="text" id="state" name="state">
+            </div>
+
+            <div class="form-group">
+                <label for="zipcode" class="optional-label">📮 Zip/Postal Code:</label>
+                <input type="text" id="zipcode" name="zipcode">
+            </div>
+
+            <button type="submit">✨ Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>

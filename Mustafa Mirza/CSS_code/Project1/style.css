@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f6f9fc, #e9eff5);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .poll {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .instruction {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #16a085;
+  }
+  
+  .options label {
+    display: block;
+    font-size: 1.1em;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .options input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  .submit button {
+    background: #16a085;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit button:hover {
+    background: #138d75;
+  }
+  
+  .shayari {
+    background: #fefbd8;
+    border: 2px dashed #f39c12;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .shayari h3 {
+    margin-bottom: 15px;
+    color: #d35400;
+  }
+  
+  .shayari p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #7f8c8d;
+  }
+                                                      
