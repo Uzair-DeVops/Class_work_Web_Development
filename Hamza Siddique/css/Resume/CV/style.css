@@ -65,7 +65,7 @@
 }
 
 .left{
-    float: right;
+    float: left;
     width: 49.5%;
     border-right: 1px solid black;
     height: 1500px;
@@ -75,10 +75,11 @@
     margin:0 auto;
     border:1px solid black;
     height: 200px;
+    margin-left: 20px;
 }
 
 .right{
-    float: left;
+    float: right;
     width: 49.5%;
     border-right: 1px solid black;
     height: 1500px;
