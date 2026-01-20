@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar{
+    max-width: 90%;
+    margin: 100px auto;
+    height: 100px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .logo{
+        font-size: 30px;
+        font-weight: 700;
+        
+    }
+
+    & .items{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        & a:hover{
+            border-bottom:  2px solid #000;
+
+        }
+        
+    }
+
+
+    &  .items img{
+        width: 40px;
+        
+
+    }
+}
+
+#menu_icon{
+    display: none;
+    font-size: 45px;
+    
+}
+@media(max-width:1000px){
+    #menu_icon{
+        display: block;
+    }
+    .navbar .items{
+        display: none;
+        
+    }
+      
+    
+}
+
+.main-content{
+    max-width: 90%;
+    margin: 0 auto;
+    display:grid;
+    grid-gap:15px;
+    grid-template-areas:
+    "eth eth alphabet"
+    "eth eth traveler"
+    "astro cube traveler"
+    "cup insta insta"
+    "cup insta insta"
+    "foam foam dimensional"
+    "foam foam dimensional";
+}
+
+.image1{
+grid-area:eth;
+}
+.image2{
+grid-area:alphabet;
+}
+.image3{
+    grid-area:traveler;
+}
+.image4{
+    grid-area:cube;
+    }
+
+.image5{
+grid-area:astro;
+}
+.image6{
+grid-area:cup;
+
+}
+.image7{
+    grid-area:insta;
+}
+.image8{
+    grid-area:foam;
+}
+.image9{
+    grid-area:dimensional;
+}
+
+& img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  
+} 
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70px auto;
+    color: #000000;
+
+}

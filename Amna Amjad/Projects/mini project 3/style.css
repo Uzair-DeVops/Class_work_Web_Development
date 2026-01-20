@@ -1,0 +1,161 @@
+body{
+    font-family: "Forum", serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+}
+div ,ul, section, p,footer, body{
+    display: block;
+}
+.main{
+   
+    min-height: 90vh;
+    background-color: rgb(240, 142, 128);
+    color: white;
+    display: inline-block;
+
+}
+.nav{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    font-size: 20px;
+}
+.nav .link a{
+    margin:0px 16px 0px 0px; 
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+button{
+    padding: 16px 20px;
+    background-color: white;
+    color: rgb(240, 142, 128);
+    border: none;
+    font-size: 16px;
+}
+.mid{
+    padding: 0px 15%;
+}
+.tagline{
+    text-align: center;
+    font-size: 75px;
+    padding: 30px 0px;
+    text-align:left;
+    font-weight: bold;
+}
+.column-one > .col1, .column-one>.col2, .column-one> .col3,.column-one> ul{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.column-one {
+    margin: 28px 0px;
+    padding: 0px;
+}
+.column-one .col5 {
+    width: 50%;
+    padding: 0px;
+    box-sizing: border-box;
+    float: left;
+    list-style-type: none;
+}
+.column-one .col5 li{
+    width: 50%;
+    float: left;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+li{
+    display: list-item;
+}
+/* #blog-part */
+.content{
+    
+    background-color: white;
+    color: black;
+    padding: 64px 0px; 
+
+}
+.children{
+    padding: 0px 15%;
+}
+.title-column > p{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.title-column{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+.children .others{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.others .head{
+    font-size: 25px;
+}
+.others .para{
+    font-size: 18px;
+}
+.others .date{
+    font-size: 15px;
+}
+.others {
+    margin-top: 20px;
+}
+.speak-event{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    background-color: rgb(253, 240, 230);
+    padding: 64px 0px;
+}
+.event-content{
+    padding: 0px 15%;
+}
+.two-column .areas{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.areas{
+    margin-top: 20px;
+}
+.areas p{
+    margin: 10px 0px;
+}
+.event-title{
+    font-size: 25px;
+}
+.event-location{
+    font-size: 18px;
+}
+.event-date{
+    font-size: 14px;
+}
+/* FOOTER */
+.bottom{
+    background-color: black;
+    padding: 64px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content img{
+    margin: 0px 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+

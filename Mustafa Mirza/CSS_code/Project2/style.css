@@ -1,0 +1,77 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #5e6c7a;  /* Deep Midnight Blue */
+    margin-top: 20px;
+}
+
+.sub_title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #1c83e9;  /* Rich Slate Gray */
+    margin-top: 20px;
+}
+
+.para {
+    text-align: center;
+    font-size: 1em;
+    color: #c86a0c;  /* Soft Gray */
+    margin-top: 20px;
+}
+
+.story0 {
+    color: #1abc9c;  /* Turquoise */
+}
+
+.story1 {
+    color: #3498db;  /* Vibrant Blue */
+}
+
+.story2 {
+    color: #e74c3c;  /* Energetic Red */
+}
+
+.story3 {
+    color: #f1c40f;  /* Warm Yellow */
+}
+
+.story4 {
+    color: #9b59b6;  /* Rich Purple */
+}
+
+#container {
+    border-width: 10px;
+    border-style: solid;
+    border: 2px solid red;
+    outline: 10px solid blue;
+    outline-offset: 2px;
+    
+    border-left: 10px solid red;
+    border-right: 10px solid green;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid yellow; 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#container:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* New Sub-Container styling */
+#sub-container {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
