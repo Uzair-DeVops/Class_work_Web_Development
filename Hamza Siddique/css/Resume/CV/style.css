@@ -31,9 +31,9 @@
 
 }
 .name{
-    font-size: 61px;
+    font-size: 55px;
     text-align: right;
-    padding-right: 53px;
+    padding-right: 56px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 50px;
     
@@ -64,23 +64,119 @@
 
 }
 
+.py2
+{
+    padding-top: 40px;
+
+}
 .left{
     float: left;
-    width: 49.5%;
+    width: 52%;
     border-right: 1px solid black;
     height: 1500px;
 }
 .sub{
     max-width: 80%;
     margin:0 auto;
-    border:1px solid black;
-    height: 200px;
-    margin-left: 20px;
+    margin-left:80px;
 }
 
 .right{
+    margin-top: 40px;
+    margin-left: 490px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    height: 800px;
+     
+    
+}
+
+.educate{
+    text-align: center;
+    
+    border-radius: 5px;
+       
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+}
+
+.bg_dv{
+    width: 173px;
+    border: 1px solid black;
+    height: 12px;
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(112, 112, 112);
+    
+}
+.inner{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(0, 255, 17);
+    border-radius: 10px;
+    float: left;
+}
+.lng{
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 100px;
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+
+}
+.number{
+    width: 150px;
+    border: 1px solid black;
+    height: 20px;
     float: right;
-    width: 49.5%;
-    border-right: 1px solid black;
-    height: 1500px;
+    font-weight: 700;
+}
+.other{
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 5px;
+    margin-right: 100px;
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+}
+
+.skills{
+    font-size: 20px;
+    font-weight: 500;
+    list-style-position: outside;
+    margin-bottom: 25;
+
+
+}
+
+.edu{
+    font-size: 18px;
+    font-weight: 600;
+    list-style-position: outside;
+    margin-bottom: 25;
+    line-height: 1.6;
+}
+
+.exp{
+    text-align: center;
+    border-width: 50px;
+    margin-top: 80px;
+    margin-left: -40px;
+    border-height: 50px;
+    border-radius: 5px;
+    display: block;
+    
+       
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+}
+
+.exp1{
+    font-size: 18px;
+    font-weight: 600;
+    list-style-position: outside;
+    margin-bottom: 25;
+    line-height: 1.6;
+    margin-left: -40px;
 }
